@@ -90,6 +90,8 @@ namespace TheDotFactory
             cbxGenerateLookupArray.Checked = outputConfig.generateLookupArray;
             txtBmpVisualizerChar.Text = outputConfig.bmpVisualizerChar;
             cbxGenerateLookupBlocks.Checked = outputConfig.generateLookupBlocks;
+            cbxGenerateProgmemMacros.Checked = outputConfig.generateProgmemMacros;
+            cbxGenerateStructures.Checked = outputConfig.generateStructures;
 
             // radio buttons
             // -- wrap          
@@ -137,6 +139,8 @@ namespace TheDotFactory
             outputConfig.generateLookupArray = cbxGenerateLookupArray.Checked;
             outputConfig.bmpVisualizerChar = txtBmpVisualizerChar.Text;
             outputConfig.generateLookupBlocks = cbxGenerateLookupBlocks.Checked;
+            outputConfig.generateProgmemMacros = cbxGenerateProgmemMacros.Checked;
+            outputConfig.generateStructures = cbxGenerateStructures.Checked;
 
             // radio buttons
             // -- wrap
@@ -410,11 +414,6 @@ namespace TheDotFactory
                 // when user has changed a preset, enter modifying state
                 modifyingPresetConfigurationEnter();
             }
-        }
-
-        private void txtLookupBlocksNewAfterCharCount_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

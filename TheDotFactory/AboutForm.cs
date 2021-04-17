@@ -59,5 +59,11 @@ namespace TheDotFactory
             // open
             System.Diagnostics.Process.Start("https://github.com/psryland");
         }
-   }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // open
+            System.Diagnostics.Process.Start("https://github.com/su4ovdan");
+        }
+    }
 }
