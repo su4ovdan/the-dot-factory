@@ -1,4 +1,4 @@
-# The Dot Factory
+# The Dot Factory 0.1.5
 Generates fonts for dot matrix displays. Read more and download binaries [here](http://www.eran.io/the-dot-factory-an-lcd-font-and-image-generator/).
 
 ### Contributing
